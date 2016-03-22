@@ -1,0 +1,60 @@
+body {
+    overflow-x: visible;
+}
+
+
+.portfolio-container{
+	
+	background: linear-gradient(to top, #445d1b, #d7dfc7);
+}
+header {
+	margin-top:110px;
+	background-image:url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");
+background-repeat: no-repeat;
+background-size:100%;
+color:#f1f1f1;
+text-align:center;
+
+}
+
+.navbar{
+	background-color:#445d1b;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+}
