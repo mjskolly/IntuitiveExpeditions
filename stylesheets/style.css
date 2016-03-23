@@ -1,0 +1,26 @@
+@media only screen and (max-width: 992px) {
+  h2 {
+    color: red; } }
+@media only screen and (max-width: 768px) {
+  header {
+    margin-top: 0px; }
+
+  h2 {
+    color: blue; } }
+.navbar {
+  background-color: #d7dfc7; }
+
+.portfolio-container {
+  background: linear-gradient(to top, #445d1b, #d7dfc7); }
+
+header {
+  background-image: url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #f1f1f1;
+  text-align: center;
+  margin-top: 110px; }
+  header img {
+    vertical-align: top;
+    width: 100%;
+    opacity: 0; }
