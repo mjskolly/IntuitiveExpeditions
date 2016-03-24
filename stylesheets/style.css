@@ -1,26 +1,81 @@
+.logo {
+  max-width: 175px; }
+
+.image-divider {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .image-divider img {
+    max-width: 300px;
+    display: inline;
+    margin: 15px 25px 15px 25px; }
+
+.kiss95 {
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg); }
+
+.snake-photo {
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg); }
+
+.recent-events {
+  background: linear-gradient(to top, #445d1b, #d7dfc7); }
+
+@font-face {
+  font-family: Aventura;
+  src: url(fonts/Aventura-Bold.otf);
+  font-weight: bold; }
+h1 {
+  font-family: Aventura;
+  padding-top: 200px;
+  font-size: 48px; }
+
+p {
+  font-family: Galdeano;
+  font-size: 18px; }
+
+body {
+  font-family: Galdeano;
+  background-color: #f1f1f1; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Aventura; }
+
+.name {
+  color: #000000; }
+
 @media only screen and (max-width: 992px) {
   h2 {
     color: red; } }
 @media only screen and (max-width: 768px) {
-  header {
-    margin-top: 0px; }
-
   h2 {
     color: blue; } }
+@media only screen and (max-width: 480px) {
+  .header-container {
+    background-image: none !important; }
+
+  h2 {
+    color: green; } }
 .navbar {
-  background-color: #d7dfc7; }
+  background-color: #d7dfc7;
+  min-height: 110px !important; }
 
 .portfolio-container {
   background: linear-gradient(to top, #445d1b, #d7dfc7); }
 
-header {
+.header-container {
   background-image: url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");
   background-repeat: no-repeat;
   background-size: 100%;
   color: #f1f1f1;
   text-align: center;
   margin-top: 110px; }
-  header img {
+  .header-container img {
     vertical-align: top;
     width: 100%;
     opacity: 0; }
