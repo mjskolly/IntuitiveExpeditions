@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Aventura-Bold';
+  src: url('Aventura-Bold.eot');
+  src: url('Aventura-Bold.woff2') format('woff2'),
+       url('Aventura-Bold.woff') format('woff'),
+       url('Aventura-Bold.ttf') format('truetype'),
+       url('Aventura-Bold.svg#Aventura-Bold') format('svg'),
+       url('Aventura-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

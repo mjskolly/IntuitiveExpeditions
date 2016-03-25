@@ -1,5 +1,8 @@
  
-.logo{
+@import "compass/css3";
+@include font-face("Aventura-Bold", font-files("fonts/Aventura-Bold.ttf", "fonts/Aventura-Bold.otf"));
+
+ .logo{
 	max-width:175px;
 }
  .image-divider{
@@ -29,13 +32,13 @@
 .recent-events{
 	background: linear-gradient(to top, #445d1b, #d7dfc7);
 }
- @font-face{
-	font-family:Aventura;
-	src: url(fonts/Aventura-Bold.otf);
-	font-weight:bold;
- }
+.gallery{
+	margin: 20px 20px 20px 20px;
+	background-color:black !important;
+}
+
  
- h1{font-family:Aventura;
+ h1{
  padding-top: 200px;
  font-size:48px;}
  p{font-family:Galdeano;

@@ -1,3 +1,6 @@
+@font-face {
+  font-family: "Aventura-Bold";
+  src: url('/fonts/fonts/Aventura-Bold.ttf') format('truetype'), url('/fonts/fonts/Aventura-Bold.otf') format('opentype'); }
 .logo {
   max-width: 175px; }
 
@@ -26,12 +29,11 @@
 .recent-events {
   background: linear-gradient(to top, #445d1b, #d7dfc7); }
 
-@font-face {
-  font-family: Aventura;
-  src: url(fonts/Aventura-Bold.otf);
-  font-weight: bold; }
+.gallery {
+  margin: 20px 20px 20px 20px;
+  background-color: black !important; }
+
 h1 {
-  font-family: Aventura;
   padding-top: 200px;
   font-size: 48px; }
 
