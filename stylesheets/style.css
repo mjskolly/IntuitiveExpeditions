@@ -1,37 +1,40 @@
 @font-face {
   font-family: "Aventura-Bold";
   src: url('/fonts/fonts/Aventura-Bold.ttf') format('truetype'), url('/fonts/fonts/Aventura-Bold.otf') format('opentype'); }
+footer {
+  background-color: #003d16; }
+
 .logo {
   max-width: 175px; }
 
-.image-divider {
-  margin-top: 40px;
-  margin-bottom: 40px; }
-  .image-divider img {
-    max-width: 300px;
-    display: inline;
-    margin: 15px 25px 15px 25px; }
-
-.kiss95 {
-  -webkit-transform: rotate(15deg);
-  -moz-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
-  transform: rotate(15deg); }
-
-.snake-photo {
-  -webkit-transform: rotate(-20deg);
-  -moz-transform: rotate(-20deg);
-  -ms-transform: rotate(-20deg);
-  -o-transform: rotate(-20deg);
-  transform: rotate(-20deg); }
+.image-divider-container {
+  background-color: #7e9181; }
+  .image-divider-container .image-divider {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .image-divider-container .image-divider img {
+      max-width: 300px;
+      display: inline;
+      margin: 15px 25px 15px 25px; }
+    .image-divider-container .image-divider .kiss95 {
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
+      transform: rotate(15deg); }
+    .image-divider-container .image-divider .snake-photo {
+      -webkit-transform: rotate(-20deg);
+      -moz-transform: rotate(-20deg);
+      -ms-transform: rotate(-20deg);
+      -o-transform: rotate(-20deg);
+      transform: rotate(-20deg); }
 
 .recent-events {
-  background: linear-gradient(to top, #445d1b, #d7dfc7); }
+  background: linear-gradient(to top, #003d17, #11791d); }
 
 .gallery {
   margin: 20px 20px 20px 20px;
-  background-color: black !important; }
+  background-color: #black !important; }
 
 h1 {
   padding-top: 200px;
@@ -64,11 +67,15 @@ h1, h2, h3, h4, h5, h6 {
   h2 {
     color: green; } }
 .navbar {
-  background-color: #d7dfc7;
-  min-height: 110px !important; }
+  background-color: #003d16;
+  min-height: 126px !important; }
+  .navbar .nav li a {
+    color: #f3f7f0; }
+  .navbar .nav li a:hover {
+    color: #00bfb2; }
 
 .portfolio-container {
-  background: linear-gradient(to top, #445d1b, #d7dfc7); }
+  background: linear-gradient(to top, #003d17, #11791d); }
 
 .header-container {
   background-image: url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");
