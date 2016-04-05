@@ -1,8 +1,18 @@
 @font-face {
   font-family: "Aventura-Bold";
   src: url('/fonts/fonts/Aventura-Bold.ttf') format('truetype'), url('/fonts/fonts/Aventura-Bold.otf') format('opentype'); }
+.events-container {
+  background-color: #f1f1f1;
+  height: 400px;
+  color: black; }
+  .events-container .section-mini-bio img {
+    float: right;
+    width: 200px;
+    height: auto; }
+
 footer {
-  background-color: #003d16; }
+  background-color: #00230D;
+  color: #f3f7f0; }
 
 .logo {
   max-width: 175px; }
@@ -11,23 +21,29 @@ footer {
   background-color: #7e9181; }
   .image-divider-container .image-divider {
     padding-top: 40px;
-    padding-bottom: 40px; }
+    paddingx-bottom: 40px; }
     .image-divider-container .image-divider img {
       max-width: 300px;
       display: inline;
-      margin: 15px 25px 15px 25px; }
-    .image-divider-container .image-divider .kiss95 {
+      margin: 15px 40px 15px 40px; }
+    .image-divider-container .image-divider .photo-center {
       -webkit-transform: rotate(15deg);
       -moz-transform: rotate(15deg);
       -ms-transform: rotate(15deg);
       -o-transform: rotate(15deg);
       transform: rotate(15deg); }
-    .image-divider-container .image-divider .snake-photo {
+    .image-divider-container .image-divider .photo-left {
       -webkit-transform: rotate(-20deg);
       -moz-transform: rotate(-20deg);
       -ms-transform: rotate(-20deg);
       -o-transform: rotate(-20deg);
-      transform: rotate(-20deg); }
+      transform: rotate(-15deg); }
+    .image-divider-container .image-divider .photo-right {
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(-5deg);
+      -ms-transform: rotate(10deg);
+      -o-transform: rotate(10deg);
+      transform: rotate(-5deg); }
 
 .recent-events {
   background: linear-gradient(to top, #003d17, #11791d); }
@@ -69,13 +85,28 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   background-color: #003d16;
   min-height: 126px !important; }
+  .navbar .nav .nav-social-media {
+    float: right !important; }
   .navbar .nav li a {
     color: #f3f7f0; }
   .navbar .nav li a:hover {
     color: #00bfb2; }
 
-.portfolio-container {
+.portfolio-container, .section-testimonials {
   background: linear-gradient(to top, #003d17, #11791d); }
+
+.cd-author {
+  font-family: Galdeano; }
+
+.cd-testimonials p, .cd-testimonials-item p {
+  font-family: Galdeano;
+  font-style: italic; }
+
+.cd-testimonials-all {
+  margin-top: 200px; }
+
+.close-btn-testimonials {
+  margin-top: 200px; }
 
 .header-container {
   background-image: url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");

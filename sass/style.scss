@@ -1,8 +1,21 @@
  
 @import "compass/css3";
 @include font-face("Aventura-Bold", font-files("fonts/Aventura-Bold.ttf", "fonts/Aventura-Bold.otf"));
+.events-container{
+	background-color: #f1f1f1;
+	height: 400px;
+	color: black;
+	.section-mini-bio{
+		img{
+			float:right;
+			width: 200px;
+			height: auto;
+		}
+	}
+}
 footer{
-background-color: lighten(#00230D, 5%);
+	background-color: #00230D;
+	color: #f3f7f0;
 }
  .logo{
 	max-width:175px;
@@ -12,26 +25,33 @@ background-color: lighten(#00230D, 5%);
 
 	 .image-divider{
 			padding-top:40px;
-		padding-bottom:40px;
+		paddingx-bottom:40px;
 		
 		img{
 			max-width:300px;
 			display:inline;
-			margin: 15px 25px 15px 25px;
+			margin: 15px 40px 15px 40px;
 		}
-		.kiss95{
+		.photo-center{
 			 -webkit-transform: rotate(15deg);
 			-moz-transform: rotate(15deg);
 			-ms-transform: rotate(15deg);
 			-o-transform: rotate(15deg);
 			transform: rotate(15deg);
 		}
-		.snake-photo{
+		.photo-left{
 			 -webkit-transform: rotate(-20deg);
 			-moz-transform: rotate(-20deg);
 			-ms-transform: rotate(-20deg);
 			-o-transform: rotate(-20deg);
-			transform: rotate(-20deg);
+			transform: rotate(-15deg);
+		}
+		.photo-right{
+						 -webkit-transform: rotate(10deg);
+			-moz-transform: rotate(-5deg);
+			-ms-transform: rotate(10deg);
+			-o-transform: rotate(10deg);
+			transform: rotate(-5deg);
 		}
 	}
 }
@@ -85,6 +105,9 @@ h1, h2, h3, h4, h5, h6, {
 	background-color: lighten(#00230D, 5%);
 	min-height:126px !important;
 	.nav{
+		.nav-social-media{
+			float:right !important;
+		}
 		li{
 			a{
 				color: #f3f7f0;
@@ -97,7 +120,7 @@ h1, h2, h3, h4, h5, h6, {
 	
 	}
 }
-.portfolio-container{
+.portfolio-container, .section-testimonials{
 	
 	background: linear-gradient(to top, #003D17, #11791D);
 }
@@ -106,7 +129,20 @@ header {
 	//padding-top:110px;
 	
 }
-
+.cd-author{
+	font-family: Galdeano;
+}
+.cd-testimonials, .cd-testimonials-item{
+	p{font-family: Galdeano;
+		font-style: italic;
+	}
+}
+.cd-testimonials-all{
+		margin-top:200px;
+}
+.close-btn-testimonials{
+		margin-top:200px;
+}
 .header-container {
 	background-image:url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");
 	background-repeat: no-repeat;
