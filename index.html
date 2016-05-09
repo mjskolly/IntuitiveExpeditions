@@ -110,20 +110,69 @@
     </header>
 
     <!-- Featured Events Grid Section -->
+	
     <section id="portfolio">
-        <div class="container-fluid portfolio-container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Events</h2>
-                    <hr class="star-primary"><!-- this is the white line, replace it with something else most likely -from freelance.css -->
-                </div>
-            </div>
+        <div class="container-fluid upcoming-events-container">
 			<div class="events-container">
 				<div class="row">
-					<div class="col-lg-12 section-upcoming-events">UPCOMING EVENTS AREA</div>
+					<div class="col-lg-12 text-center">
+						<h2>Events</h2>
+						<hr class="star-primary"><!-- this is the white line, replace it with something else most likely -from freelance.css -->
+					</div>
 				</div>
 				<div class="row">
+					<div class="col-lg-12 section-upcoming-events">UPCOMING EVENTS AREA</div>
+					<button class="" data-toggle="modal" data-target="#upcoming-events-modal">View All Upcoming Events</button>
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div id="upcoming-events-modal" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Upcoming Events</h4>
+				  </div>
+				  <div class="modal-body">
+					<p>Some text in the modal.</p>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+			  </div>
+		</div>	
+		<div class="container-fluid recent-events-container">
+			<div class="recent-events-container">
+				<div class="row">
 					<div class="col-lg-8 section-recent-events">RECENT EVENTS AREA</div>
+					<button class=" btn-bio" data-toggle="modal" data-target="#recent-events-modal">View All Recent Events</button>
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div id="recent-events-modal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Recent Events</h4>
+			  </div>
+			  <div class="modal-body">
+				<p>Some text in the modal.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		 </div>
+		<div class="container-fluid bio-container">
+			<div class="bio-container">
+				<div class="row">
 					<div class="col-lg-4 section-mini-bio"><img src="images/Head Shot - Jeremy Campbell.jpg" alt="Jeremy Campbell, owner/operator of intuitive expeditions">Bacon ipsum dolor amet biltong corned beef short ribs 
 						brisket rump, shank tri-tip sirloin. Doner filet mignon short ribs, t-bone shankle ham 
 						hock kielbasa shoulder. Cow kevin turkey, pork belly strip steak spare ribs beef ham hock. Shankle
@@ -134,12 +183,29 @@
 						beef ribs landjaeger, rump boudin ground round tail. Alcatra drumstick meatball boudin shank beef 
 						ribs flank. Flank ground round capicola jowl bacon sirloin pork loin ham hock rump tongue pastrami 
 						tail venison leberkas boudin.
-						<button class="btn-bio">View Full Bio</button>
-						
+						<!-- Trigger the modal with a button -->
+						<button class=" btn-bio" data-toggle="modal" data-target="#bio-modal">View Full Bio</button>						
 					</div>
-				</div>
+				</div>      
 			</div>
-        </div>
+		</div>
+		<div id="bio-modal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Bio</h4>
+			  </div>
+			  <div class="modal-body">
+				<p>Some text in the modal.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>	
     </section>
 	<section class="image-divider-container">
 		<div class="container image-divider">
@@ -150,12 +216,12 @@
 			</div>
 		</div>
 	</section>
-    <!-- Recent Events Section -->
-    <section class="recent-events">
+    <!-- Embeded Tumblr Section -->
+    <section class="section-blog">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Recent Events</h2>
+                    <h2>Jeremy's Blog</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -165,16 +231,29 @@
                 </div>
                 <div class="col-lg-4">
                     <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
+                </div>  
+				<button class=" btn-bio" data-toggle="modal" data-target="#blog-modal">View Full Bio</button>							
             </div>
         </div>
-    </section>
-
+		<div id="blog-modal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Blog</h4>
+			  </div>
+			  <div class="modal-body">
+				<p>Some text in the modal.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>			
+    </section><!-- end blog section -->
+	
     <!-- Social Media Feeds Section -->
     <section id="contact">
         <div class="container">
