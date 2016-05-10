@@ -86,71 +86,72 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: Aventura; }
 
-/* line 86, ../sass/style.scss */
-.name {
-  color: #000000; }
-
 @media only screen and (max-width: 992px) {
-  /* line 95, ../sass/style.scss */
+  /* line 93, ../sass/style.scss */
   h2 {
     color: red; } }
 @media only screen and (max-width: 768px) {
-  /* line 101, ../sass/style.scss */
+  /* line 99, ../sass/style.scss */
   h2 {
     color: blue; } }
 @media only screen and (max-width: 480px) {
-  /* line 104, ../sass/style.scss */
+  /* line 102, ../sass/style.scss */
   .header-container {
     background-image: none !important; }
 
-  /* line 108, ../sass/style.scss */
+  /* line 106, ../sass/style.scss */
   h2 {
     color: green; } }
-/* line 110, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .navbar {
   background-color: #003d16;
   min-height: 126px !important; }
-  /* line 114, ../sass/style.scss */
+  /* line 112, ../sass/style.scss */
   .navbar .nav .nav-social-media {
     float: right !important; }
-  /* line 118, ../sass/style.scss */
+  /* line 116, ../sass/style.scss */
   .navbar .nav li a {
     color: #f3f7f0; }
-  /* line 122, ../sass/style.scss */
+  /* line 120, ../sass/style.scss */
   .navbar .nav li a:hover {
     color: #00bfb2; }
 
-/* line 129, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .upcoming-events-container, .section-testimonials {
   background: linear-gradient(to top, #003d17, #11791d); }
 
-/* line 138, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .cd-author {
   font-family: Galdeano; }
 
-/* line 142, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .cd-testimonials p, .cd-testimonials-item p {
   font-family: Galdeano;
   font-style: italic; }
 
-/* line 146, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .cd-testimonials-all {
   margin-top: 200px; }
 
-/* line 149, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .close-btn-testimonials {
   margin-top: 200px; }
 
-/* line 152, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .header-container {
   background-image: url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");
   background-repeat: no-repeat;
   background-size: 100%;
-  color: #f1f1f1;
-  text-align: center;
   margin-top: 110px; }
-  /* line 160, ../sass/style.scss */
+  /* line 156, ../sass/style.scss */
   .header-container img {
     vertical-align: top;
     width: 100%;
     opacity: 0; }
+  /* line 165, ../sass/style.scss */
+  .header-container .name {
+    color: #f1f1f1;
+    z-index: 100;
+    position: absolute;
+    top: 200px;
+    margin: 0 auto; }
