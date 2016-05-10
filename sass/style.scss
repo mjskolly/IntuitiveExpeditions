@@ -1,10 +1,16 @@
  
 @import "compass/css3";
 @include font-face("Aventura-Bold", font-files("fonts/Aventura-Bold.ttf", "fonts/Aventura-Bold.otf"));
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
 .events-container{
-	background-color: #f1f1f1;
-	height: 400px;
-	color: black;
+
+	
+
 	.section-mini-bio{
 		img{
 			float:right;
@@ -120,7 +126,7 @@ h1, h2, h3, h4, h5, h6, {
 	
 	}
 }
-.portfolio-container, .section-testimonials{
+.upcoming-events-container, .section-testimonials{
 	
 	background: linear-gradient(to top, #003D17, #11791D);
 }

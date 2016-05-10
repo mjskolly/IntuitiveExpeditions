@@ -1,43 +1,56 @@
 @font-face {
   font-family: "Aventura-Bold";
   src: url('/fonts/fonts/Aventura-Bold.ttf') format('truetype'), url('/fonts/fonts/Aventura-Bold.otf') format('opentype'); }
-.events-container {
-  background-color: #f1f1f1;
-  height: 400px;
-  color: black; }
-  .events-container .section-mini-bio img {
-    float: right;
-    width: 200px;
-    height: auto; }
+/* line 4, ../sass/style.scss */
+.modal.modal-wide .modal-dialog {
+  width: 90%; }
 
+/* line 7, ../sass/style.scss */
+.modal-wide .modal-body {
+  overflow-y: auto; }
+
+/* line 15, ../sass/style.scss */
+.events-container .section-mini-bio img {
+  float: right;
+  width: 200px;
+  height: auto; }
+
+/* line 22, ../sass/style.scss */
 footer {
   background-color: #00230D;
   color: #f3f7f0; }
 
+/* line 26, ../sass/style.scss */
 .logo {
   max-width: 175px; }
 
+/* line 29, ../sass/style.scss */
 .image-divider-container {
   background-color: #b4a350; }
+  /* line 32, ../sass/style.scss */
   .image-divider-container .image-divider {
     padding-top: 40px;
     paddingx-bottom: 40px; }
+    /* line 36, ../sass/style.scss */
     .image-divider-container .image-divider img {
       max-width: 300px;
       display: inline;
       margin: 15px 40px 15px 40px; }
+    /* line 41, ../sass/style.scss */
     .image-divider-container .image-divider .photo-center {
       -webkit-transform: rotate(15deg);
       -moz-transform: rotate(15deg);
       -ms-transform: rotate(15deg);
       -o-transform: rotate(15deg);
       transform: rotate(15deg); }
+    /* line 48, ../sass/style.scss */
     .image-divider-container .image-divider .photo-left {
       -webkit-transform: rotate(-20deg);
       -moz-transform: rotate(-20deg);
       -ms-transform: rotate(-20deg);
       -o-transform: rotate(-20deg);
       transform: rotate(-15deg); }
+    /* line 55, ../sass/style.scss */
     .image-divider-container .image-divider .photo-right {
       -webkit-transform: rotate(10deg);
       -moz-transform: rotate(-5deg);
@@ -45,69 +58,90 @@ footer {
       -o-transform: rotate(10deg);
       transform: rotate(-5deg); }
 
+/* line 64, ../sass/style.scss */
 .recent-events {
   background: linear-gradient(to top, #003d17, #11791d); }
 
+/* line 67, ../sass/style.scss */
 .gallery {
   margin: 20px 20px 20px 20px;
   background-color: #black !important; }
 
+/* line 73, ../sass/style.scss */
 h1 {
   padding-top: 200px;
   font-size: 48px; }
 
+/* line 76, ../sass/style.scss */
 p {
   font-family: Galdeano;
   font-size: 18px; }
 
+/* line 79, ../sass/style.scss */
 body {
   font-family: Galdeano;
   background-color: #f1f1f1; }
 
+/* line 83, ../sass/style.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: Aventura; }
 
+/* line 86, ../sass/style.scss */
 .name {
   color: #000000; }
 
 @media only screen and (max-width: 992px) {
+  /* line 95, ../sass/style.scss */
   h2 {
     color: red; } }
 @media only screen and (max-width: 768px) {
+  /* line 101, ../sass/style.scss */
   h2 {
     color: blue; } }
 @media only screen and (max-width: 480px) {
+  /* line 104, ../sass/style.scss */
   .header-container {
     background-image: none !important; }
 
+  /* line 108, ../sass/style.scss */
   h2 {
     color: green; } }
+/* line 110, ../sass/style.scss */
 .navbar {
   background-color: #003d16;
   min-height: 126px !important; }
+  /* line 114, ../sass/style.scss */
   .navbar .nav .nav-social-media {
     float: right !important; }
+  /* line 118, ../sass/style.scss */
   .navbar .nav li a {
     color: #f3f7f0; }
+  /* line 122, ../sass/style.scss */
   .navbar .nav li a:hover {
     color: #00bfb2; }
 
-.portfolio-container, .section-testimonials {
+/* line 129, ../sass/style.scss */
+.upcoming-events-container, .section-testimonials {
   background: linear-gradient(to top, #003d17, #11791d); }
 
+/* line 138, ../sass/style.scss */
 .cd-author {
   font-family: Galdeano; }
 
+/* line 142, ../sass/style.scss */
 .cd-testimonials p, .cd-testimonials-item p {
   font-family: Galdeano;
   font-style: italic; }
 
+/* line 146, ../sass/style.scss */
 .cd-testimonials-all {
   margin-top: 200px; }
 
+/* line 149, ../sass/style.scss */
 .close-btn-testimonials {
   margin-top: 200px; }
 
+/* line 152, ../sass/style.scss */
 .header-container {
   background-image: url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");
   background-repeat: no-repeat;
@@ -115,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #f1f1f1;
   text-align: center;
   margin-top: 110px; }
+  /* line 160, ../sass/style.scss */
   .header-container img {
     vertical-align: top;
     width: 100%;
