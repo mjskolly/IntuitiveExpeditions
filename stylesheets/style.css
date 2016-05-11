@@ -106,52 +106,57 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   background-color: #003d16;
   min-height: 126px !important; }
-  /* line 112, ../sass/style.scss */
-  .navbar .nav .nav-social-media {
-    float: right !important; }
-  /* line 116, ../sass/style.scss */
-  .navbar .nav li a {
-    color: #f3f7f0; }
-  /* line 120, ../sass/style.scss */
-  .navbar .nav li a:hover {
-    color: #00bfb2; }
+  /* line 111, ../sass/style.scss */
+  .navbar .nav {
+    float: right; }
+    /* line 117, ../sass/style.scss */
+    .navbar .nav li a {
+      color: #f3f7f0; }
+    /* line 121, ../sass/style.scss */
+    .navbar .nav li a:hover {
+      color: #00bfb2; }
+  /* line 131, ../sass/style.scss */
+  .navbar #main-navbar-collapse {
+    float: right; }
 
-/* line 127, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .upcoming-events-container, .section-testimonials {
   background: linear-gradient(to top, #003d17, #11791d); }
 
-/* line 136, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .cd-author {
   font-family: Galdeano; }
 
-/* line 140, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .cd-testimonials p, .cd-testimonials-item p {
   font-family: Galdeano;
   font-style: italic; }
 
-/* line 144, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .cd-testimonials-all {
   margin-top: 200px; }
 
-/* line 147, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .close-btn-testimonials {
   margin-top: 200px; }
 
-/* line 150, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .header-container {
   background-image: url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");
   background-repeat: no-repeat;
   background-size: 100%;
+  color: #f1f1f1;
+  text-align: center;
   margin-top: 110px; }
-  /* line 156, ../sass/style.scss */
+  /* line 166, ../sass/style.scss */
   .header-container img {
     vertical-align: top;
     width: 100%;
     opacity: 0; }
-  /* line 165, ../sass/style.scss */
+  /* line 178, ../sass/style.scss */
   .header-container .name {
-    color: #f1f1f1;
+    color: red;
     z-index: 100;
     position: absolute;
     top: 200px;
-    margin: 0 auto; }
+    left: 100px; }

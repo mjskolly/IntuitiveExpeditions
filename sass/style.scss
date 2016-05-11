@@ -109,8 +109,9 @@ h1, h2, h3, h4, h5, h6, {
 	background-color: lighten(#00230D, 5%);
 	min-height:126px !important;
 	.nav{
+		float:right;
 		.nav-social-media{
-			float:right !important;
+			//float:right !important;
 		}
 		li{
 			a{
@@ -119,9 +120,16 @@ h1, h2, h3, h4, h5, h6, {
 			}
 			a:hover{
 				color: #00bfb2;
+				//color: red;
 			}
 		}
 	
+	}
+	.nav-social-media-buttons{
+
+	}
+	#main-navbar-collapse{
+		float:right;
 	}
 }
 .upcoming-events-container, .section-testimonials{
@@ -151,6 +159,8 @@ header {
 	background-image:url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");
 	background-repeat: no-repeat;
 	background-size:100%;
+	color:#f1f1f1;
+	text-align:center;
 	margin-top:110px;
 	//hackery to make height scale
 	img {
@@ -162,11 +172,14 @@ header {
 		//padding-top: 100px;
 		//padding-bottom: 50px;
 	}
+	.intro-text{
+
+	}
 	.name{
-		color:#f1f1f1;
+		color:red;
 		z-index:100;
 		position:absolute;
 		top:200px;
-		margin:0 auto;
+		left:100px;//obviously this is not the solution
 	}
 }
