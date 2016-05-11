@@ -59,7 +59,7 @@ footer {
       transform: rotate(-5deg); }
 
 /* line 64, ../sass/style.scss */
-.recent-events {
+.recent-events-bio-container {
   background: linear-gradient(to top, #003d17, #11791d); }
 
 /* line 67, ../sass/style.scss */
@@ -106,41 +106,35 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   background-color: #003d16;
   min-height: 126px !important; }
-  /* line 111, ../sass/style.scss */
-  .navbar .nav {
-    float: right; }
-    /* line 117, ../sass/style.scss */
-    .navbar .nav li a {
-      color: #f3f7f0; }
-    /* line 121, ../sass/style.scss */
-    .navbar .nav li a:hover {
-      color: #00bfb2; }
-  /* line 131, ../sass/style.scss */
-  .navbar #main-navbar-collapse {
-    float: right; }
+  /* line 113, ../sass/style.scss */
+  .navbar .nav li a {
+    color: #f3f7f0; }
+  /* line 116, ../sass/style.scss */
+  .navbar .nav li a:hover {
+    color: #00bfb2; }
 
-/* line 135, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .upcoming-events-container, .section-testimonials {
   background: linear-gradient(to top, #003d17, #11791d); }
 
-/* line 144, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .cd-author {
   font-family: Galdeano; }
 
-/* line 148, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .cd-testimonials p, .cd-testimonials-item p {
   font-family: Galdeano;
   font-style: italic; }
 
-/* line 152, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .cd-testimonials-all {
   margin-top: 200px; }
 
-/* line 155, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .close-btn-testimonials {
   margin-top: 200px; }
 
-/* line 158, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .header-container {
   background-image: url("../images/masthead1-ptarmigan-circe-pano-edited.JPG");
   background-repeat: no-repeat;
@@ -148,12 +142,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #f1f1f1;
   text-align: center;
   margin-top: 110px; }
-  /* line 166, ../sass/style.scss */
+  /* line 153, ../sass/style.scss */
   .header-container img {
     vertical-align: top;
     width: 100%;
     opacity: 0; }
-  /* line 178, ../sass/style.scss */
+  /* line 165, ../sass/style.scss */
   .header-container .name {
     color: red;
     z-index: 100;

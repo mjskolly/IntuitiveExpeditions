@@ -61,7 +61,7 @@ footer{
 		}
 	}
 }
-.recent-events{
+.recent-events-bio-container{
 		background: linear-gradient(to top, #003D17, #11791D);
 }
 .gallery{
@@ -109,27 +109,14 @@ h1, h2, h3, h4, h5, h6, {
 	background-color: lighten(#00230D, 5%);
 	min-height:126px !important;
 	.nav{
-		float:right;
-		.nav-social-media{
-			//float:right !important;
-		}
 		li{
 			a{
-				color: #f3f7f0;
-			
+				color: #f3f7f0;		
 			}
 			a:hover{
 				color: #00bfb2;
-				//color: red;
 			}
 		}
-	
-	}
-	.nav-social-media-buttons{
-
-	}
-	#main-navbar-collapse{
-		float:right;
 	}
 }
 .upcoming-events-container, .section-testimonials{
